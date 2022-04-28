@@ -22,3 +22,12 @@ const beforeTransform = {
 }
 
 console.log(transform(beforeTransform));
+/**
+ {
+   a: {
+     b: {
+       c: 'value'
+      } 
+    }
+  }
+**/
