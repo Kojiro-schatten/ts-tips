@@ -87,4 +87,5 @@ class BracketsValidator {
   }
 }
 
-console.log(validateString("()[]{}", 3));
+console.log(validateString('{([])}', 0));
+console.log(validateString('a(b[d{a+b]/2]/4)/1', 0));
