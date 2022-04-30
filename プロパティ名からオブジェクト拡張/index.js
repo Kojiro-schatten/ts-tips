@@ -21,3 +21,12 @@ const beforeTransform = {
     a_b_c: "value"
 };
 console.log(transform(beforeTransform));
+/**
+ {
+   a: {
+     b: {
+       c: 'value'
+      }
+    }
+  }
+**/
